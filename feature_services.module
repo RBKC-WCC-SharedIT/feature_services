@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the RBKC Services feature.
+ */
+
+include_once 'feature_services.features.inc';
