@@ -48,42 +48,12 @@ function feature_services_default_services_endpoint() {
         ),
       ),
     ),
-    'node' => array(
-      'operations' => array(
-        'retrieve' => array(
-          'enabled' => '1',
-        ),
-        'index' => array(
-          'enabled' => '1',
-        ),
-      ),
-    ),
     'rbkc-user' => array(
       'operations' => array(
         'create' => array(
           'enabled' => '1',
         ),
-      ),
-    ),
-    'user' => array(
-      'operations' => array(
-        'create' => array(
-          'enabled' => '1',
-        ),
         'update' => array(
-          'enabled' => '1',
-        ),
-      ),
-      'actions' => array(
-        'login' => array(
-          'enabled' => '1',
-          'settings' => array(
-            'services' => array(
-              'resource_api_version' => '1.0',
-            ),
-          ),
-        ),
-        'token' => array(
           'enabled' => '1',
         ),
       ),
