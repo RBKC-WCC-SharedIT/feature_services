@@ -19,7 +19,7 @@ function feature_services_default_services_endpoint() {
   $endpoint->authentication = array(
     'services_api_key_auth' => array(
       'api_key' => 'jOkqHccij3eZnQW6qXZOTg',
-      'api_key_source' => 'header',
+      'api_key_source' => 'request',
       'user' => 'api_user',
     ),
   );
