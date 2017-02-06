@@ -57,6 +57,11 @@ function feature_services_default_services_endpoint() {
           'enabled' => '1',
         ),
       ),
+      'actions' => array(
+        'revoke' => array(
+          'enabled' => '1',
+        ),
+      ),
     ),
   );
   $endpoint->debug = 1;
